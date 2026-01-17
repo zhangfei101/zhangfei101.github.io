@@ -185,7 +185,7 @@ const translations = {
             event: '瑞士北部巴塞尔-施塔特选区的选民获得了强调所有非人类灵长类动物基本权利的投票，因为它们是具有高级认知能力的有感知存在。虽然提案未通过，但这是历史上第一次就给予非人类动物法律权利的投票已经举行'
         },
         'encounters-title': '遇到野生动物时该怎么做',
-        'encounters-source': '来源：国家地理大学',
+        'encounters-source': '来源：国家地理',
         'encounter-title1': '美洲狮',
         'encounter-desc1': '如果动物没有注意到你，悄悄地走开，但如果它已经注意到了，不要逃跑。试着通过慢慢举起双臂或打开夹克盖在头上让自己看起来很大。面对美洲狮并具有攻击性——向美洲狮迈两步，或者甚至向动物冲过去，这是让它们逃跑的最佳方式。保持眼睛盯着动物，不要移开视线。如果美洲狮靠近，这些策略都不起作用，向它扔岩石或水瓶等物体。',
         'encounter-prevention1': '预防：注意美洲狮的迹象，包括小径上的爪痕和粪便。还要选择远离岩石突出物、悬崖或茂密灌木丛的营地，因为美洲狮更有可能出现在这些地方。',
@@ -415,7 +415,7 @@ const translations = {
             event: 'The electorate in Basel-Stadt in northern Switzerland got to vote on highlighting the basic rights of all non-human primates, as they are sentient beings with advanced cognitive abilities. While the proposal did not pass, it was the first time in history that a vote of giving legal rights to non-human animals had taken place'
         },
         'encounters-title': 'What to Do When Encountering Wild Animals',
-        'encounters-source': 'Sources: University of National Geographic',
+        'encounters-source': 'Sources: National Geographic',
         'encounter-title1': 'Cougar',
         'encounter-desc1': 'If the animal does not notice you, walk away quietly, but if it has noticed you, do not run. Try to make yourself look big by slowly raising your arms or opening your jacket over your head. Face the cougar and be aggressive – take two steps toward the cougar, or even rush toward the animal, which is the best way to get them to run away. Keep your eyes on the animal and do not look away. If the cougar approaches and these strategies do not work, throw objects like rocks or water bottles at it.',
         'encounter-prevention1': 'Prevention: Watch for signs of cougars, including claw marks and droppings on trails. Also choose campsites away from rock outcrops, cliffs, or dense bushes, as cougars are more likely to appear in these places.',
