@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">动物栖息地与分布</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="main-title">动物栖息地与分布</h1>
+            <nav>
+                <button id="lang-toggle" class="btn">EN/中</button>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="tab-nav">
+        <div class="container">
+            <a href="#about" class="tab-link active" id="tab-about">关于我</a>
+            <a href="#hero" class="tab-link" id="tab-hero">栖息地分布</a>
+            <a href="#conservation" class="tab-link" id="tab-conservation">保护状况</a>
+            <a href="#human-impact" class="tab-link" id="tab-human-impact">人类影响</a>
+            <a href="#timeline" class="tab-link" id="tab-timeline">时间线</a>
+            <a href="#wildlife-encounters" class="tab-link" id="tab-wildlife-encounters">遇到野生动物</a>
+            <a href="#organizations" class="tab-link" id="tab-organizations">组织支持</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <p id="about-content">你好！我是Duo Zhang，卢森堡的一名高中生，也是这个网站的创始人。在过去的几年里，我有机会在卢森堡当地的野生动物中心"centre de soins pour la faune sauvage"做志愿者。从我的志愿者经历中，我理解了这些组织在保护野生动物和保存生物多样性方面不可或缺的作用。通过这个网站，我希望分享我对野生动物的热情，并希望您也能通过捐赠或社区服务来支持野生动物！我也注意到了欧洲和我家乡中国在动物保护方面的差异。因此，我正在与中国志愿者合作，共同扩展这个平台。我也希望这个平台能成为一座桥梁，为世界各地的动物保护志愿者提供信息。</p>
+            </div>
+        </section>
+
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2 id="hero-title">全球猫科动物种群密度分布图</h2>
+                <p id="hero-desc">来自22种猫科动物相机陷阱研究的679条种群密度记录的世界地图。仅显示使用CR FMMDM、CR HMMDM和SECR密度估算方法的记录。</p>
+                <img src="images/habitat-map.jpg" alt="猫科动物分布图" class="hero-image" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'800\' height=\'500\' viewBox=\'0 0 800 500\'><rect width=\'800\' height=\'500\' fill=\'%234a7c59\'/><text x=\'400\' y=\'250\' font-family=\'Arial, sans-serif\' font-size=\'30\' fill=\'white\' text-anchor=\'middle\'>Habitat Map</text></svg>';">
+                <p id="hero-source">来源：来自全球相机陷阱研究的猫科动物种群密度空间方差-质量异速生长</p>
+                <p id="cartogram-desc">濒危动物物种的地图，东南亚和南美洲的濒危动物物种数量最多。来自World Mapper的图表。</p>
+            </div>
+        </section>
+
+        <section id="conservation" class="conservation">
+            <div class="container">
+                <h2 id="conservation-title">保护状况</h2>
+                <p id="conservation-quote">"迄今为止，许多物种群体包括哺乳动物、两栖动物、鸟类、造礁珊瑚和针叶树已经得到了全面评估。除了评估新识别的物种外，IUCN红色名录还重新评估了一些现有物种的状况，有时会有好消息要讲。例如，由于保护努力，IUCN红色名录类别上的许多物种都有降级（即改善）的好消息。然而，坏消息是生物多样性正在下降。目前IUCN红色名录上有超过105,700个物种，其中超过28,000个物种面临灭绝威胁，包括40%的两栖动物、34%的针叶树、33%的造礁珊瑚、25%的哺乳动物和14%的鸟类。" – 国际自然保护联盟（IUCN）</p>
+                <p id="conservation-detail">"IUCN状况 – 全球动物、真菌和植物物种灭绝风险状况的最全面信息来源。"</p>
+                <p id="conservation-text">国际自然保护联盟（IUCN）濒危物种红色名录成立于1964年，是世界生物多样性健康状况的关键指标。它是告知和促进生物多样性保护和政策变化的有力工具，对保护我们生存所需的自然资源至关重要。它提供了有关种群规模、栖息地和生态、使用和/或贸易、威胁和保护行动的信息，这些信息将有助于告知必要的保护决策。IUCN红色名录被各种机构使用，如政府机构、野生动物部门、教育组织和商业界。</p>
+                <p id="conservation-process">"红色名录过程已成为一项涉及IUCN生物多样性评估和知识团队工作人员、合作伙伴组织以及IUCN物种生存委员会和合作伙伴网络中的专家的庞大企业，他们编译物种信息，使IUCN红色名录成为今天不可或缺的产品。" – IUCN</p>
+                <p id="conservation-link">https://www.iucnredlist.org/</p>
+                <img src="images/endangered-species.jpg" alt="濒危物种" class="conservation-image" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'400\' viewBox=\'0 0 600 400\'><rect width=\'600\' height=\'400\' fill=\'%23e74c3c\'/><text x=\'300\' y=\'200\' font-family=\'Arial, sans-serif\' font-size=\'30\' fill=\'white\' text-anchor=\'middle\'>Endangered Species</text></svg>';">
+            </div>
+        </section>
+
+        <section id="human-impact" class="human-impact">
+            <div class="container">
+                <h2 id="human-impact-title">人类互动：影响野生动物的生态问题</h2>
+                <p id="human-impact-source">来源：IFAW</p>
+                
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <img src="images/deforestation.jpg" alt="森林砍伐：Deforestation" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23f39c12\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Deforestation</text></svg>';">
+                        <h3 id="impact-title1">1. 森林砍伐：Deforestation</h3>
+                        <p id="impact-desc1">清除或稀疏森林，使土地适合农业、畜牧业或城市化等用途。森林砍伐是威胁生物多样性的主要生态问题，导致许多野生动物栖息地的缩小和消失。受威胁的物种是澳大利亚的考拉种群。由于它们的饮食完全由桉树叶组成，它们特别容易受到森林砍伐的影响。当树木被砍伐时，考拉失去了主要的食物来源，导致考拉种群大幅减少，该物种现在被IUCN红色名录归类为易危。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/habitat-fragmentation.jpg" alt="栖息地破碎化" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23e67e22\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Habitat Fragmentation</text></svg>';">
+                        <h3 id="impact-title2">2. 栖息地破碎化：Habitat Fragmentation</h3>
+                        <p id="impact-desc2">将野生动物栖息地分割成小块。当较大栖息地的区域被自然原因或人类活动破坏时，就会发生这种情况，这阻碍了野生动物在土地区域之间安全移动，破坏了季节性觅食模式和迁徙。由于空间较小且与较大种群分离，物种面临更强的竞争并面临近亲繁殖，这可能会耗尽它们的种群并影响生物多样性。许多物种，如非洲稀树草原大象和黑犀牛，目前正受到与栖息地破碎化相关的生态问题的影响。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/poaching.jpg" alt="偷猎：Poaching" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23c0392b\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Poaching</text></svg>';">
+                        <h3 id="impact-title3">3. 偷猎：Poaching</h3>
+                        <p id="impact-desc3">非法捕猎或活体捕获您不拥有或受法律保护的任何野生动物。大多数时候，偷猎已成为由经济利益驱动的复杂和大规模操作。出售外来动物及其部位的利润继续推动着今天的偷猎活动。面临大规模偷猎的一些动物包括羚羊、大象和犀牛。偷猎特别复杂，因为在某些地区，人们可能依赖偷猎作为收入、食物和传统药物的来源。提出的解决方案是积极支持偷猎者的替代生计，使他们能够找到更多对野生动物友好的收入来源。还可以更多地支持护林员，他们工作在防止野生动物犯罪的第一线。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/bycatch.jpg" alt="副渔获：Bycatch" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%233498db\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Bycatch</text></svg>';">
+                        <h3 id="impact-title4">4. 副渔获</h3>
+                        <p id="impact-desc4">在商业捕鱼过程中意外捕获的海洋生物。鱼类、海龟、海豚、鲨鱼……几乎所有海洋动物都受到影响。作为影响海洋生物的最具破坏性的生态问题之一，副渔获导致在将野生动物拖到水面或试图逃脱它们被困在其中的渔具的过程中，被捕获的动物严重受伤或死亡。一些因力竭而死亡，而需要浮出水面的海洋动物经常溺水。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/overfishing.jpg" alt="过度捕捞" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%232980b9\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Overfishing</text></svg>';">
+                        <h3 id="impact-title5">5. 过度捕捞：Overfishing</h3>
+                        <p id="impact-desc5">当在特定种群中捕获了过多的鱼类，而没有足够的繁殖成年个体来补充种群时。尽管联合国粮食及农业组织监测着超过500个全球鱼类种群，但据估计仍有三分之一的鱼类被过度捕捞，这是由更高水平的消费和非法捕捞造成的。过度捕捞影响生物多样性，因为鱼类种群减少破坏了食物网，破坏了栖息地，并减少了在这些脆弱生态系统中维持平衡的海洋生物种群。鲨鱼经常被过度捕捞并因鳍而被杀死，将一些鲨鱼物种推向灭绝。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/pollution.jpg" alt="污染" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%238e44ad\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Pollution</text></svg>';">
+                        <h3 id="impact-title6">6. 污染</h3>
+                        <p id="impact-desc6">当有害物质（称为污染物）被释放到环境中时。一些污染物如火山灰是自然的，但人类要对大多数污染负责，这些污染损害土地、水和空气。汽车尾气和烟雾污染空气，塑料和其他丢弃的垃圾污染水，污水、工业废物和农药污染土地和水道。噪音污染也是影响像鲸鱼这样的海洋动物的主要污染类型。所有野生动物都受到空气和水污染的破坏性生态问题的威胁。空气污染改变了迁徙动物的行为模式，而水体中的塑料和化学污染物在野生动物动物中造成广泛问题。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/drought.jpg" alt="干旱：Droughts" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23e67e22\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Droughts</text></svg>';">
+                        <h3 id="impact-title7">7. 干旱</h3>
+                        <p id="impact-desc7">降水缺乏的长时间干燥天气，最终导致水资源短缺。这个生态问题影响栖息地、农业、能源和环境。由于全球变暖导致气温上升，地球上较干燥的地区变得更干燥，增加了干旱的风险和严重性。干旱可以减少陆生动物的水和食物来源，破坏当地食物网并使生态系统失去平衡。在干旱期间，由于草和树木的可燃性增加，野火更为常见。在非洲之角地区，持续的干旱严重影响了当地人民和那里的野生动物。自2020年以来，该地区经历了极其干燥的雨季，仅截至2023年2月，Amboseli生态系统就损失了6,093只野生动物。家畜也受到影响，导致许多农民失去生计。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/oil-gas-development.jpg" alt="石油和天然气开发" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%2334495e\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Oil & Gas</text></svg>';">
+                        <h3 id="impact-title8">8. 石油和天然气开发</h3>
+                        <p id="impact-desc8">石油和天然气向大气中释放温室气体并污染空气。工业发展可能由于排放和灰尘导致空气质量降低，泄漏和溢出破坏生态系统，以及植被损失和土壤损害。此外，石油泄漏永久破坏海洋生态系统，可能伤害数万只动物。2023年12月，印度的一次石油泄漏影响了多达200只鹈鹈。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/soil-erosion.jpg" alt="土壤侵蚀：Soil Erosion" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23d35400\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Soil Erosion</text></svg>';">
+                        <h3 id="impact-title9">9. 土壤侵蚀：Soil Erosion</h3>
+                        <p id="impact-desc9">土壤的顶层随时间推移而被磨损和转移，改变了土地的形状。这可能是一个自然过程（水和风），但也可能由人类活动引起。世界上多达三分之一的土壤显示出中度到高度的退化。土壤侵蚀降低了土壤肥力，这可能会减少植被的健康和生物多样性。此外，植物较少意味着吸收二氧化碳和防止全球变暖影响的物种较少。据估计，健康的土壤可以吸收人类产生的所有温室气体排放的5%。</p>
+                    </div>
+                    
+                    <div class="impact-card">
+                        <img src="images/soil-degradation.jpg" alt="土壤退化：Soil Degradation" class="impact-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'><rect width=\'400\' height=\'300\' fill=\'%23c0392b\'/><text x=\'200\' y=\'150\' font-family=\'Arial, sans-serif\' font-size=\'24\' fill=\'white\' text-anchor=\'middle\'>Soil Degradation</text></svg>';">
+                        <h3 id="impact-title10">10. 土壤退化</h3>
+                        <p id="impact-desc10">土壤的质量及其支持植物和动物的潜力降低。它包括影响土壤生态系统和其中野生动物的化学、物理或生物变化。与土壤侵蚀类似，土壤退化可能是自然过程的结果，但也可能通过土地清理和集约化农业等人类活动而加速。土壤退化通过增加荒漠化和山体滑坡影响野生动物，这可能破坏栖息地。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline">
+            <div class="container">
+                <h2 id="timeline-title">动物权利发展的详细时间线：Detailed Timeline on Development of Animal Rights</h2>
+                <p id="timeline-source">来源：维基百科并使用各种资源进行事实核查：Source: Wikipedia and fact-checked using various resources</p>
+                <div class="timeline-container">
+                    <div class="timeline-item" id="timeline-item1">
+                        <div class="timeline-year">公元前530年：c. 530 BCE</div>
+                        <div class="timeline-event">希腊哲学家毕达哥拉斯首次教授动物有灵魂并倡导素食主义：Greek philosopher Pythagoras was the first to teach that animals had souls and advocate for vegetarianism</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item2">
+                        <div class="timeline-year">973–1057年：973–1057</div>
+                        <div class="timeline-event">叙利亚作家和哲学家Al-Ma'arri成为第一个有记录的素食主义者，当时他停止使用任何动物产品：Syrian writer and philosopher Al-Ma'arri became the first documented vegan when he stopped using any animal products</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item3">
+                        <div class="timeline-year">1635年：1635</div>
+                        <div class="timeline-event">爱尔兰议会通过了"禁止用尾巴犁地和从活羊身上拔毛的法案"，这是最早已知的动物保护立法之一：The Parliament of Ireland passed "The Act against the Plowing by the Tayle, and pulling the Wooll off Living Sheep", one of the first known pieces of animal protection legislation</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item4">
+                        <div class="timeline-year">1789年：1789</div>
+                        <div class="timeline-event">在《道德与立法原理导论》中，哲学家杰里米·边沁根据动物感受快乐和痛苦的能力主张更好地对待动物。他著名地写道："问题不是，它们能推理吗？也不是，它们能说话吗？而是，它们能受苦吗？"：In An Introduction to the Principles of Morals and Legislation, philosopher Jeremy Bentham argued for better treatment of animals on the basis of their ability to feel pleasure and pain. He famously writes: "The question is not, Can they reason? nor, Can they talk? but, Can they suffer?"</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item5">
+                        <div class="timeline-year">1824年：1824</div>
+                        <div class="timeline-event">理查德·马丁与亚瑟·布鲁姆和威廉·威尔伯福斯一起创立了防止虐待动物协会（现为皇家防止虐待动物协会，RSPCA）。这是世界上第一个动物保护组织：Richard Martin, along with Arthur Broome and William Wilberforce, founded the Society for the Prevention of Cruelty to Animals (now the Royal Society for the Prevention of Cruelty to Animals, RSPCA). It is the world's first animal protection organization</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item6">
+                        <div class="timeline-year">1847年：1847</div>
+                        <div class="timeline-event">"素食主义者"一词被创造，素食主义协会在英国成立：The term "vegetarian" was devised and the Vegetarian Society was founded in Britain</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item7">
+                        <div class="timeline-year">1859年：1859</div>
+                        <div class="timeline-event">查尔斯·达尔文的《物种起源》出版，证明人类是动物的进化后代：Charles Darwin's On the Origin of Species was published, demonstrating that humans are the evolutionary descendants of animals</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item8">
+                        <div class="timeline-year">1876年：1876</div>
+                        <div class="timeline-event">英国通过了《动物虐待法》，这是第一部规范动物实验的国家立法：Britain passed the Cruelty to Animals Act, the first piece of national legislation to regulate animal experimentation</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item9">
+                        <div class="timeline-year">1877年：1877</div>
+                        <div class="timeline-event">安娜·休厄尔的《黑美人》是最早从非人类动物视角写的英语小说之一。这部小说引发了对马匹福利的关注，特别是关于使用缰绳和粗暴对待的问题：Anna Sewell's Black Beauty was one of the first English novels to be written from the perspective of a non-human animal. The novel spurred concern for the welfare of horses, especially regarding the use of bearing reins and harsh treatment</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item10">
+                        <div class="timeline-year">1906年：1906</div>
+                        <div class="timeline-event">J·霍华德·摩尔出版了《普遍亲缘关系》，倡导对所有有感知存在的伦理考虑和对待。它指出所有有感知的存在在道德上是相连的，黄金法则——像你希望被对待那样对待他人——应该普遍适用，而不仅仅适用于人类：J. Howard Moore published The Universal Kinship, which advocated for the ethical consideration and treatment of all sentient beings. It states that all sentient beings are morally connected and the Golden Rule – treat others as you would wish to be treated – should be applied universally and not just to humans</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item11">
+                        <div class="timeline-year">1944年：1944</div>
+                        <div class="timeline-event">唐纳德·沃森创造了"素食主义者"一词，并在英国创立了素食主义者协会：Donald Watson coined the word "vegan" and founded The Vegan Society in Britain</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item12">
+                        <div class="timeline-year">1955年：1955</div>
+                        <div class="timeline-event">动物保护立法协会（SAPL）成立，这是美国第一个游说人道屠宰立法的组织：The Society for Animal Protective Legislation (SAPL), the first organization to lobby for humane slaughter legislation in the US, was founded</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item13">
+                        <div class="timeline-year">1958年：1958</div>
+                        <div class="timeline-event">《美国人道屠宰法》获得通过：The American Humane Slaughter Act was passed</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item14">
+                        <div class="timeline-year">1964年：1964</div>
+                        <div class="timeline-event">狩猎破坏者协会在英国成立，以破坏狩猎并反对血腥运动：The Hunt Saboteurs Association was founded in England to sabotage hunts and oppose bloodsports</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item15">
+                        <div class="timeline-year">1964年：1964</div>
+                        <div class="timeline-event">英国政府成立了布拉姆贝尔委员会，调查集约化养殖系统中动物的福利，得出的结论是动物应该有足够的运动自由来站立、躺下、转身、梳理自己并伸展四肢，这后来成为动物福利五项自由的基础：The British government established the Brambell Committee to investigate the welfare of animals in intensive farming systems, concluding that animals should have sufficient freedom of movement to stand up, lie down, turn around, groom themselves, and stretch their limbs, which later became the foundation of the Five Freedoms of animal welfare</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item16">
+                        <div class="timeline-year">1966年：1966</div>
+                        <div class="timeline-event">国会通过了1966年的《实验室动物福利法》（后来更名为《动物福利法》）。这项联邦法律为处理、销售、运输和护理特定动物（包括在研究和商业中使用的狗、猫、非人类灵长类动物、兔子、豚鼠和仓鼠）设定了最低标准。它还建立了影响它们在实验环境中待遇的初步法规：Congress passed the Laboratory Animal Welfare Act in 1966 (later renamed the Animal Welfare Act). The federal law set minimum standards for the handling, sale, transport, and care of specific animals, including dogs, cats, nonhuman primates, rabbits, guinea pigs, and hamsters, used in research and commerce. It also established initial regulations affecting their treatment in experimental settings</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item17">
+                        <div class="timeline-year">1975年：1975</div>
+                        <div class="timeline-event">彼得·辛格出版了《动物解放》，其中描述了农场和实验室中动物的状况以及动物解放的功利主义论证，对动物运动产生了重大影响：Peter Singer published Animal Liberation, in which depictions of the conditions of animals on farms and in laboratories as well as utilitarian arguments for animal liberation were to have a major influence on the animal movement</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item18">
+                        <div class="timeline-year">1979年：1979</div>
+                        <div class="timeline-event">《欧洲野生动物和自然栖息地保护伯尔尼公约》被欧洲理事会在伯尔尼通过：The Berne Convention on the Conservation of European Wildlife and Natural Habitats was adopted by the Council of Europe in Bern</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item19">
+                        <div class="timeline-year">1982年：1982</div>
+                        <div class="timeline-event">国际捕鲸委员会（IWC）通过1982年的暂停令禁止商业捕鲸，从1986年开始生效：The International Whaling Commission (IWC) banned commercial whaling by a 1982 moratorium, effective from 1986</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item20">
+                        <div class="timeline-year">1987年：1987</div>
+                        <div class="timeline-event">《保护宠物动物欧洲公约》由欧洲理事会通过，促进宠物福利并确保其待遇和保护的最低标准：The European Convention for the Protection of Pet Animals, adopted by the Council of Europe, promotes the welfare of pets and ensures minimum standards for their treatment and protection</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item21">
+                        <div class="timeline-year">1989年：1989</div>
+                        <div class="timeline-event">加里·弗朗西奥内成为第一位在美国法学院教授动物权利理论的学者：Gary Francione became the first academic to teach animal rights theory in an American law school</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item22">
+                        <div class="timeline-year">1997年：1997</div>
+                        <div class="timeline-event">欧盟的《动物保护议定书》被附在建立欧洲共同体的条约中。该议定书承认动物是"有感知的存在"而不仅仅是财产，并要求各国在制定和实施法律时承认动物福利的重要性：The European Union's Protocol on Animal Protection was annexed to the treaty establishing the European Community. The Protocol recognized animals as "sentient beings" rather than mere property and required countries to acknowledge the importance of animal welfare when making and implementing laws</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item23">
+                        <div class="timeline-year">1999年：1999</div>
+                        <div class="timeline-event">威廉·范·埃伦获得了实验室培育肉类的第一项专利，这是在实验室环境中培育的肉类：Willem van Eelen secured the first patent for in vitro meat, which is meat cultivated in a laboratory setting</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item24">
+                        <div class="timeline-year">2000–2009年：2000–2009</div>
+                        <div class="timeline-event">英国、奥地利、荷兰、瑞士、克罗地亚和波斯尼亚和黑塞哥维那实施了禁止毛皮养殖的禁令：Bans on fur farming were instituted in the United Kingdom, Austria, Netherlands, Switzerland, Croatia, and Bosnia and Herzegovina</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item25">
+                        <div class="timeline-year">2006年：2006</div>
+                        <div class="timeline-event">用于围养小牛的小围栏（用于小牛肉生产）在欧盟成为非法：Veal crates, which are tiny stalls used to enclose calves for veal production, became illegal in the EU</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item26">
+                        <div class="timeline-year">2009年：2009</div>
+                        <div class="timeline-event">2009年，玻利维亚成为第一个禁止马戏团使用所有动物的国家：In 2009, Bolivia became the first country to ban all animal use in circuses</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item27">
+                        <div class="timeline-year">2013年：2013</div>
+                        <div class="timeline-event">世界上第一个培育肉类产品，由马斯特里赫特大学的马克·波斯特团队开发的汉堡包，由汉尼·吕茨勒在伦敦公开测试：The world's first cultured meat product, a hamburger developed by the Maastricht University team of Mark Post, was publicly tested by Hanni Rützler in London</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item28">
+                        <div class="timeline-year">2014年：2014</div>
+                        <div class="timeline-event">美国动物虐待调查学校成立，其使命是提供执法和动物护理。它为动物虐待调查领域的专业培训提供了机会：The American Animal Cruelty Investigations School was established in the United States with the mission to provide law enforcement and animal care. It provides the opportunity of professional training in the area of animal cruelty investigations</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item29">
+                        <div class="timeline-year">2015–2016年：2015–2016</div>
+                        <div class="timeline-event">继2013年电影《黑鱼》引发的主要公众反弹后，海洋世界宣布将结束其有争议的虎鲸表演和繁育计划：Following major public backlash prompted by the 2013 film Blackfish, SeaWorld announced it would end its controversial orca shows and breeding program</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item30">
+                        <div class="timeline-year">2018年：2018</div>
+                        <div class="timeline-event">《联邦狗和猫肉贸易禁止法》签署成为法律，使在美国因食物目的屠宰狗或猫成为非法，仪式目的除外：The federal Dog and Cat Meat Trade Prohibition Act was signed into law, making it illegal to slaughter a dog or cat for food in the United States with exceptions for ritual purposes</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item31">
+                        <div class="timeline-year">2019年：2019</div>
+                        <div class="timeline-event">一项在瑞士禁止工厂化养殖的提案获得了10万个签名。抗议活动迫使就该问题进行全国投票：A proposal to ban factory farming in Switzerland, which is a method of raising livestock to maximize profit, achieved 100,000 signatures. The protests forced a nationwide ballot on the issue</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item32">
+                        <div class="timeline-year">2020年：2020</div>
+                        <div class="timeline-event">世界上第一个培育肉类产品在获得新加坡食品局批准后进入市场：The first cultured meat product in the world entered the market after being approved by the Singapore Food Agency</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item33">
+                        <div class="timeline-year">2022年：2022</div>
+                        <div class="timeline-event">德国和法国共同成为世界上第一个禁止所有小鸡扑杀的国家，这是杀死雄性小鸡和不健康雌性小鸡的行动，因为它们对产蛋和肉类生产没有贡献。这些国家鼓励其他欧盟成员国也这样做：Germany and France jointly became the first countries in the world to prohibit all chick culling, which is the action of killing male chicks and unhealthy female chicks due to their lack of contribution to egg laying and meat production. The countries encouraged other EU member states to do the same</div>
+                    </div>
+                    <div class="timeline-item" id="timeline-item34">
+                        <div class="timeline-year">2022年：2022</div>
+                        <div class="timeline-event">瑞士北部巴塞尔-施塔特选区的选民获得了强调所有非人类灵长类动物基本权利的投票，因为它们是具有高级认知能力的有感知存在。虽然提案未通过，但这是历史上第一次就给予非人类动物法律权利的投票已经举行：The electorate in Basel-Stadt in northern Switzerland got to vote on highlighting the basic rights of all non-human primates, as they are sentient beings with advanced cognitive abilities. While the proposal did not pass, it was the first time in history that a vote of giving legal rights to non-human animals had taken place</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="wildlife-encounters" class="wildlife-encounters">
+            <div class="container">
+                <h2 id="encounters-title">遇到野生动物时该怎么做：What to Do When Encountering Wild Animals</h2>
+                <p id="encounters-source">来源：国家地理</p>
+                
+                <div class="encounter-grid">
+                    <div class="encounter-card">
+                        <h3 id="encounter-title1">美洲狮</h3>
+                        <p id="encounter-desc1">如果动物没有注意到你，悄悄地走开，但如果它已经注意到了，不要逃跑。试着通过慢慢举起双臂或打开夹克盖在头上让自己看起来很大。面对美洲狮并具有攻击性——向美洲狮迈两步，或者甚至向动物冲过去，这是让它们逃跑的最佳方式。保持眼睛盯着动物，不要移开视线。如果美洲狮靠近，这些策略都不起作用，向它扔岩石或水瓶等物体。</p>
+                        <p id="encounter-prevention1">预防：注意美洲狮的迹象，包括小径上的爪痕和粪便。还要选择远离岩石突出物、悬崖或茂密灌木丛的营地，因为美洲狮更有可能出现在这些地方。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title2">熊：Bear</h3>
+                        <p id="encounter-desc2">待在原地或慢慢向侧面移动。不要跑或尖叫。不要爬树，因为熊也能爬。相反，让自己看起来像难以对付的大猎物：慢慢挥动手臂让自己看起来很大，并尽量保持冷静。大声说话，既可以让自己平静下来，也可以向熊表明你是一个人类。</p>
+                        <p id="encounter-attack2">如果被灰熊攻击，装死，腹部朝下躺下（因为它更容易被撕裂开）并留下背包以更好地保护自己。对于较小的黑熊，不要装死。相反，试着逃跑或反击，将你的打击集中在动物的脸上和口鼻上。</p>
+                        <p id="encounter-prevention2">更好的预防：在熊地区制造大量噪音，以防止动物受惊，并避免浆果灌木等食物来源。将食物和垃圾安全存放，并结伴旅行。对于熊和所有动物，永远不要将自己置于母亲和幼崽之间。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title3">短吻鳄：Alligator</h3>
+                        <p id="encounter-desc3">避免让你的狗和拴绳宠物在过去看到过短吻鳄的水域游泳。将它们关在有围栏的区域或房子里几天，因为爬行动物有很好的嗅觉。</p>
+                        <p id="encounter-attack3">如果被攻击，最好的防御是戳短吻鳄的眼睛并击打它的头部。用这些打击，试着让动物窒息并释放你。当动物张开嘴重新定位时，利用这个时刻逃跑。尽可能快地直线跑开。速度至关重要，因为短吻鳄在陆地上可以以每小时35英里的速度奔跑。</p>
+                        <p id="encounter-prevention3">更好的预防：避免在短吻鳄最活跃的夜间游泳，永远不要试图喂食动物或在张贴警告的水域游泳。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title4">野牛</h3>
+                        <p id="encounter-desc4">这些动物可以以每小时超过30英里的速度移动，跳过高围栏，并游泳。如果可能，留在你的车里，不要向动物走去以更近距离地观察。如果它似乎已经注意到你，慢慢后退。</p>
+                        <p id="encounter-prevention4">更好的预防：至少保持25码的距离，最好留在车里。</p>
+                        <p id="encounter-attack4">如果被攻击：跑。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title5">郊狼</h3>
+                        <p id="encounter-desc5">制造会向动物发出你的存在信号的声音，如果一只仍然靠近，试着让自己看起来很大并挥动手臂。</p>
+                        <p id="encounter-attack5">如果郊狼咬人，它可能需要从野外移除并检测狂犬病，所以立即向当地当局报告任何攻击。</p>
+                        <p id="encounter-prevention5">更好的预防：永远不要喂食郊狼。晚上将宠物关在里面，并安全地存放所有垃圾和食物。运动激活的灯和电围栏被用于保护牲畜，也是郊狼遭遇的关键威慑物。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title6">狮子和猎豹</h3>
+                        <p id="encounter-desc6">如果你在狮子休息时遇到它，后退。通常，休息的狮子会保持休息，只要你没有引起它的兴趣。你在徒步时不太可能遇到猎豹，因为这些动物通常避免人类。好奇的猎豹或狮子可能会靠近野生动物园车辆闻、咀嚼它的部分，甚至爬上去。始终保持所有肢体在车内，启动车辆，并小心地远离任何看起来想要互动或在你之前爬上车辆的动物。</p>
+                        <p id="encounter-approach6">好奇的猎豹可能会伸出手触摸人或他们的相机，但重要的是不要反应并保持静止，直到动物失去兴趣。如果你遇到狮子，保持冷静，避免眼神接触，不要试图逃跑或触摸动物。如果你处于可以小心并慢慢向狮子安全移动的位置而不将背对着它的位置，那么这样做可能是值得的。否则，保持不动，尽量减少所有动作，并等待。</p>
+                        <p id="encounter-rare6">猎豹攻击极其罕见。如果狮子决定攻击你，让自己尽可能大，站在原地甚至有目的地向狮子移动，同时大喊并制造大量噪音。不要转身或逃跑。</p>
+                        <p id="encounter-prevention6">更好的预防：不要试图接近这些动物并留在你的车里。</p>
+                    </div>
+                    
+                    <div class="encounter-card">
+                        <h3 id="encounter-title7">驼鹿</h3>
+                        <p id="encounter-desc7">驼鹿遇到时该怎么做</p>
+                        <p id="encounter-prevention7">更好的预防：至少保持25码的距离，最好留在车里。</p>
+                        <p id="encounter-attack7">如果被攻击：跑。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="organizations" class="organizations">
+            <div class="container">
+                <h2 id="organizations-title">国际野生动物组织：支持它们！：International Wildlife Organizations：Support Them!</h2>
+                
+                <div class="organization-grid">
+                    <div class="organization-card">
+                        <h3 id="org-title1">国际动物福利基金会：International Fund for Animal Welfare (IFAW)：International Fund for Animal Welfare (IFAW)</h3>
+                        <p id="org-desc1">在全球范围内救援动物，在灾难中提供帮助，打击非法野生动物贸易：rescues animals worldwide, helps in disasters, combats illegal wildlife trade：rescues animals worldwide, helps in disasters, combats illegal wildlife trade</p>
+                        <p id="org-link1">https://www.ifaw.org/international/support</p>
+                    </div>
+                    
+                    <div class="organization-card">
+                        <h3 id="org-title2">世界动物保护</h3>
+                        <p id="org-desc2">在150多个国家开展工作，以减少痛苦、改善政策，并在灾害和农业中保护动物</p>
+                        <p id="org-link2">https://www.worldanimalprotection.org/support-us/</p>
+                    </div>
+                    
+                    <div class="organization-card">
+                        <h3 id="org-title3">世界野生动物基金会（WWF）：World Wildlife Fund (WWF)</h3>
+                        <p id="org-desc3">在全球范围内保护濒危物种和栖息地：protects endangered species and habitats globally</p>
+                        <p id="org-link3">https://www.worldwildlife.org/support/give/</p>
+                    </div>
+                    
+                    <div class="organization-card">
+                        <h3 id="org-title4">动物慈善评估员（ACE）</h3>
+                        <p id="org-desc4">评估并推荐高影响力的动物福利慈善机构</p>
+                        <p id="org-link4">https://animalcharityevaluators.org/help-animals-now/</p>
+                    </div>
+                </div>
+                
+                <p id="organizations-note">也请支持当地非政府组织（NGO），并承认它们为保护当地野生动物种群所做的工作！</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">&copy; 2025 野生动物保护组织：Wildlife Conservation Organization. 保护自然，守护未来：Protecting nature, securing the future.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
